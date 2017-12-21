@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>CCF8B8DC-836F-4F7E-AC09-D4A4E3EDB3CE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="98" height="98" rx="4"></rect>
+    </defs>
+    <g id="3.Move" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1.0-Move" transform="translate(-48.000000, -359.000000)">
+            <g id="List" transform="translate(28.000000, 181.000000)">
+                <g id="Item" transform="translate(0.000000, 158.000000)">
+                    <g id="mv_uber" transform="translate(20.000000, 20.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#E0F3F9" xlink:href="#path-1"></use>
+                        <g id="uber_rides_api_icon" mask="url(#mask-2)" fill="#0C78BE">
+                            <g transform="translate(25.000000, 25.000000)" id="Shape">
+                                <path d="M23.9398812,2.13697346e-15 C11.5834059,-0.000155232984 1.23564753,9.35962624 0,21.6541639 L16.7218266,21.6541639 L16.7218266,18.0451366 C16.7218266,17.380733 17.2604321,16.8421275 17.9248357,16.8421275 L29.9549268,16.8421275 C30.6193304,16.8421275 31.1579359,17.380733 31.1579359,18.0451366 L31.1579359,30.0752277 C31.1579359,30.7396313 30.6193304,31.2782368 29.9549268,31.2782368 L17.9248357,31.2782368 C17.2604321,31.2782368 16.7218266,30.7396313 16.7218266,30.0752277 L16.7218266,26.4662004 L0,26.4662004 C1.29753791,39.3765396 12.5985195,48.9325201 25.5449822,48.0667447 C38.4914449,47.2009692 48.4194052,36.2253347 47.9863575,23.257184 C47.5533099,10.2890333 36.9152604,0.000163008408 23.9398812,0 L23.9398812,2.13697346e-15 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

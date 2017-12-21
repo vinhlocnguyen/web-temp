@@ -1,0 +1,229 @@
+
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    background-color: #eceff1
+}
+div.full-height{height:100%;}
+div.leftWidget, div.leftWidget div{
+    float:left;
+    text-align:left;
+}
+div.rightWidget, div.rightWidget div{
+    float:right;
+    text-align:right;
+}
+
+/* Link styling */
+a:link {
+    color: #0c78be;
+}
+a:visited {
+    color: #0c78be;
+}
+a:hover {
+    color: #0c78be;
+}
+a:active {
+    color: #0c78be;
+}
+
+
+/* Small hack because FontIcon does not use the style it gets through props */
+.bigIcon {
+  font-size: 35px !important;
+}
+/* end hack */
+
+.page {
+    margin: 0 14px;
+    height: 100%;
+}
+
+.steplabel>span{
+  padding:0 !important;
+}
+.container{
+    height:100%;
+    color:#fff;
+    min-width:300px;
+    font-family: 'Soho Gothic W01 Light', sans-serif;
+    font-weight: 100;
+    font-size: 3.5vw;
+    overflow: hidden;
+    flex:1;
+    position: relative;
+}
+
+.floatingButton {
+  width:100%;
+}
+
+/* loading page */
+.loading {
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 30px);
+}
+.loading img{
+  width: 32px;
+  height: 32px;
+}
+
+.react-datepicker__input-container {
+  flex-grow: 1
+}
+
+.mapPopup {
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popup .line {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0px 12px;
+  margin: 2px 0 10px 0;
+}
+.popupButton {
+  background: #20AFD6;
+  padding: 3px;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  transform-style: flat;
+  transition: all 250ms ease-out;
+  cursor: pointer;
+}
+.popupButton:before, .popupButton:after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    transition: all 250ms ease-out;
+}
+.popupButton:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.popupButton:before:hover {
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+}
+/* animation router */
+
+.pageSwap-leave {
+
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.pageSwap-leave.pageSwap-leave-active {
+
+  -ms-transform: translate(-100%, 0);
+  -webkit-transform: translate(-100%, 0);
+  -moz-transform: translate(-100%, 0);
+  -o-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+  transition: all ease 250ms;
+
+}
+
+.pageSwap-enter {
+  -ms-transform: translate(100%, 0);
+  -webkit-transform: translate(100%, 0);
+  -moz-transform: translate(100%, 0);
+  -o-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+
+
+.pageSwap-enter.pageSwap-enter-active {
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  transition: all ease 250ms;
+}
+
+.reversePageSwap-leave {
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.reversePageSwap-leave.reversePageSwap-leave-active {
+  -ms-transform: translate(100%, 0);
+  -webkit-transform: translate(100%, 0);
+  -o-transform: translate(100%, 0 );
+  -moz-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+  transition: all ease 250ms;
+
+}
+
+.reversePageSwap-enter {
+  -ms-transform: translate(-100%, 0);
+  -webkit-transform: translate(-100%, 0);
+  -moz-transform: translate(-100%, 0);
+  -o-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+}
+
+
+.reversePageSwap-enter.reversePageSwap-enter-active {
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transition: all ease 250ms;
+}
+
+
+// @media screen and (min-width: 450px) {
+//     .container {
+// 	    width: 450px;
+// 	    margin:0 auto;
+//         font-size: 16px;
+//     }
+
+//     .floatingButton {
+//       width: 450px;
+//     }
+// }
+
+/* for landscape */
+@media (orientation: portrait) {
+  .container {
+    min-height: 550px;
+  } 
+}
+  
+/* Medium Devices, Desktops */
+// @media only screen and (min-width : 768px) {
+//   .container {
+//     width: 450px;
+//     margin:0 auto;
+//     font-size: 16px;
+//   }
+
+//   .floatingButton {
+//       width: 450px;
+//   }
+// }

@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+build/
+app/config.js
+.nyc_output/
+report/
+coverage
+yarn-error.log
